@@ -347,5 +347,6 @@ GROUP BY 1
                                                         '2017-02-01',
                                                         '2016-12-01'))--Только зимние рейсы
     AND status not in ('Cancelled') --Исключить отмененные рейсы
+    AND f.arrival_city != 'Novokuznetsk' --Исключить выброс - информация по рейсу в этот город неполная  
   ORDER BY f.flight_no,
         total_profit desc
