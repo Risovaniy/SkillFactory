@@ -3,7 +3,11 @@
 *.csv
 
 # Special for project4
-!'query_result_2021-12-28T13 55 03.284505Z.csv'
+!query_result_2021-12-28.csv
+
+
+
+
 
 
 # Copy from https://gist.github.com/GhostofGoes/94580e76cd251972b15b4821c8a06f59

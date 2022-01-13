@@ -224,7 +224,7 @@ GROUP BY 1
 
 /*The main SQL-code of the Project No.4*/
 
- SELECT f.flight_no, --Номер
+ SELECT f.flight_no, --Номер рейса
         depart_port.city AS departure_city, --Город вылета
         depart_port.latitude AS depart_latitude, --Широта города вылета
         depart_port.longitude AS depart_longitude, --Долгота города вылета
